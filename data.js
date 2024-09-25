@@ -2,22 +2,22 @@
 
 const users = [
     {
-      name: "John Doe",
-      linkedin: "https://linkedin.com/in/johndoe",
-      image: "https://via.placeholder.com/150", // Placeholder image link
-      role: "Software Developer"
+      name: "Sarah-Lisa Mero",
+      linkedin: "https://www.linkedin.com/in/sarah-lisa-m-130556190/",
+      image: "./img/sarahlisamero_bas.jpg", // Placeholder image link
+      role: "Creative strategist"
     },
     {
-      name: "Jane Smith",
-      linkedin: "https://linkedin.com/in/janesmith",
-      image: "https://via.placeholder.com/150",
+      name: "Giulia Calvo",
+      linkedin: "https://www.linkedin.com/in/giulia-calvo/",
+      image: "./img/giuliacalvo_bas.jpg",
       role: "Project Manager"
     },
     {
-      name: "Emily Johnson",
-      linkedin: "https://linkedin.com/in/emilyjohnson",
-      image: "https://via.placeholder.com/150",
+      name: "Britt Adam",
+      linkedin: "https://www.linkedin.com/in/britt-adam-b7b682186/",
+      image: "./img/brittadam_bas.jpg",
       role: "UI/UX Designer"
-    }
+    },
   ];
   

@@ -1,0 +1,57 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.user-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.user-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.user-card h2 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.user-card a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn color */
+}
+
+.user-card p {
+    color: #666;
+    font-size: 0.9em;
+}

@@ -17,7 +17,7 @@ const users = [
       name: "Britt Adam",
       linkedin: "https://www.linkedin.com/in/britt-adam-b7b682186/",
       image: "./img/brittadam_bas.jpg",
-      role: "UI/UX Designer"
+      role: "Digital Experience Designer"
     },
   ];
   

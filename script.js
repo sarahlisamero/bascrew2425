@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <img src="${user.image}" alt="${user.name}">
             <h2>${user.name}</h2>
             <p>${user.role}</p>
-            <a href="${user.linkedin}" target="_blank">LinkedIn Profile</a>
+            <a href="${user.linkedin}" target="_blank">LINKEDIN PROFILE</a>
         `;
 
         // Append the user card to the user list

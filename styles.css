@@ -1,22 +1,51 @@
 /* styles.css */
+@font-face {
+    font-family: 'KritikBlack';
+    src: url('fonts/Kritik-Black-6egwcp.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplayBold';
+    src: url('fonts/HelveticaNowDisplay-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplayLight';
+    src: url('fonts/HelveticaNowDisplay-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
+    background: #b2c3ff;
+    cursor: url('img/spaghetti.png'), auto; /* De hotspot staat hier op (16, 16) */
+}
+
+.custom-cursor {
+    cursor: url('img/spaghetti.png'), auto; /* Zorg ervoor dat het pad naar de afbeelding klopt */
+}
+
+h1 {
+    font-family: 'KritikBlack', Arial, sans-serif;
+    color: #f05027;
+    margin-top: -60px;
+    margin-bottom: 20px;
     padding: 0;
+    letter-spacing: -0.025em; /* Kerning van -25 */
+    line-height: 0.9; /* Leading van 90% */
 }
 
 .container {
     text-align: center;
     margin: 20px auto;
-    max-width: 800px;
+    max-width: 1000px;
 }
 
-h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
 
 .user-list {
     display: flex;
@@ -25,14 +54,22 @@ h1 {
 }
 
 .user-card {
-    background-color: white;
-    border-radius: 8px;
+    background-color: #e5f78d;
+    border-radius: 7px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 10px;
     padding: 20px;
-    width: 200px;
+    padding-bottom: 30px;
+    /* width: 200px; */
     text-align: center;
+    transition: transform 0.3s ease; /* Voegt een soepele overgang toe */
 }
+
+.user-card:hover {
+    transform: scale(1.05); /* Vergroot de kaart met 5% bij hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Vergroot de schaduw voor een diepte-effect */
+}
+
 
 .user-card img {
     border-radius: 50%;
@@ -44,14 +81,74 @@ h1 {
 .user-card h2 {
     font-size: 1.2em;
     margin: 10px 0;
+    font-family: 'HelveticaNowDisplayBold', Arial, sans-serif;
+    color: #232323;
+    letter-spacing: -0.025em; 
+    line-height: 1.2;
 }
 
 .user-card a {
+    font-family: 'KritikBlack', Arial, sans-serif;
     text-decoration: none;
-    color: #0077b5; /* LinkedIn color */
+    color: #e9eef1;
+    background-color: #f05027;
+    letter-spacing: 0;
+    border-radius: 7px;
+    padding: 10px 20px;
+    margin-top: 20px;
 }
 
 .user-card p {
-    color: #666;
+    color: #232323;
     font-size: 0.9em;
+    font-family: 'HelveticaNowDisplayLight', Arial, sans-serif;
+    letter-spacing: -0.010em; 
+    line-height: 1.2; 
+    margin-bottom: 30px;
 }
+
+.logo img{
+   width: 357px;
+}
+
+/* Hide horizontal scrollbar for WebKit-based browsers */
+::-webkit-scrollbar {
+    height: 5px;
+    width: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #e9eef1;
+    border-radius: 10px;
+    width: 0;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #e9eef1;
+  }
+  
+  /* Hide scrollbar for Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: #e9eef1 transparent;
+  }
+  
+  /* Optional: Customize scrollbar track */
+  *::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  
+  /* Optional: Customize scrollbar thumb */
+  *::-webkit-scrollbar-thumb {
+    background-color: #e9eef1;
+    border-radius: 10px;
+  }
+  
+  /* Optional: Hover effect for scrollbar thumb */
+  *::-webkit-scrollbar-thumb:hover {
+    background-color: #e9eef1;
+  }

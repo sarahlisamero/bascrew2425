@@ -36,6 +36,15 @@ h1 {
     color: #f05027;
     letter-spacing: -0.025em; /* Kerning van -25 */
     line-height: 0.9; /* Leading van 90% */
+    font-size: 2rem;
+}
+
+.who p {
+    font-family: 'HelveticaNowDisplayLight', Arial, sans-serif;
+    color: #e9eef1;
+    letter-spacing: -0.010em; /* Kerning van -10 */
+    line-height: 1.2; /* Leading van 120% */
+    font-size: 1.5rem;
 }
 
 .team {
@@ -99,7 +108,7 @@ h1 {
   font-size: 32px;
 }
 
-.user-card p, p {
+.user-card p {
     color: #232323;
     font-size: 0.9em;
     font-family: 'HelveticaNowDisplayLight', Arial, sans-serif;
@@ -114,11 +123,28 @@ nav  {
 }
 
 .who{
-   padding: 20px;
+   /* padding: 40px 180px; */
+   width: 750px;
+   position: relative;
+   top:20px;
 }
 
 .logo img{
-   width: 357px;
+   width: 450px;
+   position: relative;
+   bottom:20px;
+}
+
+.grouppicture img{
+   width: 360px;
+   border-radius: 7px;
+}
+
+.whoGroup{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 180px 40px 180px;
 }
 
 /* Hide horizontal scrollbar for WebKit-based browsers */

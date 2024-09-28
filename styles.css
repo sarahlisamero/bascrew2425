@@ -22,8 +22,9 @@
 
 
 body {
-    background: #b2c3ff;
+    background: #e9eef1;
     cursor: url('img/spaghetti.png'), auto; /* De hotspot staat hier op (16, 16) */
+    margin: 0;
 }
 
 .custom-cursor {
@@ -33,6 +34,13 @@ body {
 h1 {
     font-family: 'KritikBlack', Arial, sans-serif;
     color: #f05027;
+    letter-spacing: -0.025em; /* Kerning van -25 */
+    line-height: 0.9; /* Leading van 90% */
+}
+
+.team {
+    font-family: 'KritikBlack', Arial, sans-serif;
+    color: #e5f78d;
     margin-top: -60px;
     margin-bottom: 20px;
     padding: 0;
@@ -54,12 +62,12 @@ h1 {
 }
 
 .user-card {
-    background-color: #e5f78d;
-    border-radius: 7px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color: #e9eef1; */
+    /* border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
     margin: 10px;
     padding: 20px;
-    padding-bottom: 30px;
+    padding-bottom: 20px;
     /* width: 200px; */
     text-align: center;
     transition: transform 0.3s ease; /* Voegt een soepele overgang toe */
@@ -72,39 +80,38 @@ h1 {
 
 
 .user-card img {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
     object-fit: cover;
 }
 
 .user-card h2 {
     font-size: 1.2em;
     margin: 10px 0;
-    font-family: 'HelveticaNowDisplayBold', Arial, sans-serif;
-    color: #232323;
+    font-family: 'KritikBlack', Arial, sans-serif;
+    color: #f05027;
+    text-decoration: underline;
     letter-spacing: -0.025em; 
     line-height: 1.2;
 }
 
 .user-card a {
-    font-family: 'KritikBlack', Arial, sans-serif;
-    text-decoration: none;
-    color: #e9eef1;
-    background-color: #f05027;
-    letter-spacing: 0;
-    border-radius: 7px;
-    padding: 10px 20px;
-    margin-top: 20px;
+  font-size: 32px;
 }
 
-.user-card p {
+.user-card p, p {
     color: #232323;
     font-size: 0.9em;
     font-family: 'HelveticaNowDisplayLight', Arial, sans-serif;
     letter-spacing: -0.010em; 
     line-height: 1.2; 
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+.logo  {
+   background: #f05027;
+   width: 100vw;
 }
 
 .logo img{
@@ -152,3 +159,6 @@ h1 {
   *::-webkit-scrollbar-thumb:hover {
     background-color: #e9eef1;
   }
+
+
+  

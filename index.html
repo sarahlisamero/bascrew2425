@@ -3,22 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Members</title>
+    <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-</head>
+    <style>
 
-<body class="custom-cursor">
-    <div class="logo">
-        <img src="img/BAS_FullLogoBoxedTM_RGB_WhiteOrange.png" alt="">
-    </div>
-    <div class="container">
-        <h1>Meet Our Team</h1>
-        <div id="user-list" class="user-list">
-            <!-- User cards will be injected here by JavaScript -->
+        .soonContainer {
+            position: fixed;           
+            top: 50%;                 
+            left: 50%;                
+            transform: translate(-50%, -50%); 
+            display: flex;            
+            justify-content: center;   
+            align-items: center;       
+            height: 100vh;          
+            width: 100vw;            
+            border-radius: 10px; 
+        }
+
+        .soon {
+            text-align: center;       
+            background: #e9eef1;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="soonContainer">
+        <div class="soon">
+            <h1>Coming soon!</h1>
+            <p>Stay tuned, something exciting is on its way!</p>
         </div>
     </div>
-
-    <script src="data.js"></script>
-    <script src="script.js"></script>
 </body>
 </html>
+

@@ -20,11 +20,18 @@
     font-style: normal;
 }
 
-
 body {
     background: #e9eef1;
     cursor: url('img/spaghetti.png'), auto; /* De hotspot staat hier op (16, 16) */
     margin: 0;
+}
+
+p {
+    font-family: 'HelveticaNowDisplayLight', Arial, sans-serif;
+    color: #232323;
+    letter-spacing: -0.010em; /* Kerning van -10 */
+    line-height: 1.2; /* Leading van 120% */
+    font-size: 1.2rem;
 }
 
 .custom-cursor {

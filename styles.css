@@ -126,7 +126,7 @@ h1 {
 
 nav  {
    background: #f05027;
-   width: 100vw;
+   /* width: 100vw; */
 }
 
 .who{
@@ -198,3 +198,36 @@ nav  {
 
 
   
+ @media (max-width: 1000px) {
+    .whoGroup{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 20px 40px 20px;
+    }
+
+    .who{
+        width: 100%;
+    }
+
+    .logo img {
+        width: 450px; /* Houd de originele grootte van het logo */
+        display: block; /* Zorg ervoor dat het logo als blokelement wordt weergegeven */
+        margin: 0 auto; /* Centreer het logo horizontaal */
+        position: static; /* Verwijder de relatieve positionering */
+    }
+
+    .grouppicture img {
+        width: 70%;
+        display: block; /* Zorg ervoor dat het element als blok wordt weergegeven */
+        margin: 20px auto; /* Centreer het horizontaal */
+    }
+    
+}
+
+@media (min-width: 1000px) {
+   .grouppicture img {
+        margin-left: 20px;
+    }
+}

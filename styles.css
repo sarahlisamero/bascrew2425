@@ -195,8 +195,31 @@ nav  {
   *::-webkit-scrollbar-thumb:hover {
     background-color: #e729bd;
   }
+  .beats{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 16% 40px 16%;
+    background-color: #b2c3ff;
+    text-align: center;
+}
+.beats h1{
+    color: #e729bd;
+    font-size: 2rem;
+    font-family: 'KritikBlack', Arial, sans-serif;
+    line-height: 0.9;
+}
+.spotify{
+   width: 300px;
+   height: 400px;
+}
 
-
+@media screen and (min-width: 768px) {
+    .spotify {
+        width: 600px;
+    }
+}
   
  @media (max-width: 1000px) {
     .whoGroup{

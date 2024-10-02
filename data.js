@@ -84,6 +84,48 @@ const users = [
       linkedin: "www.linkedin.com/in/naomistynen",
       image: "./img/naomistynen_bas.jpg",
       role: "Account"
+    }, 
+    {
+      name: "Jef Mampaey",
+      linkedin: "https://www.linkedin.com/in/jef-mampaey-828335252?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      image: "./img/jefmampaey_bas.jpg",
+      role: "Art Director"
+    },
+    {
+      name: "Louise Ide",
+      linkedin: "linkedin.com/in/louise-ide",
+      image: "./img/louiseide_bas.jpg",
+      role: "Account/ Project Manager"
+    },
+    {
+      name: "Marie De Meester",
+      linkedin: "http://linkedin.com/in/marie-de-meester-84726423b",
+      image: "./img/mariedemeester_bas.jpg",
+      role: "Strategist and Creative"
+    },
+    {
+      name: "Bjoke Claesen",
+      linkedin: "https://www.linkedin.com/in/bjoke-claesen-70498b327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      image: "./img/bjokeclaesen_bas.jpg",
+      role: "Social Media and Content Creator"
+    },
+    {
+      name: "Pieter Meeuwissen",
+      linkedin: "https://www.linkedin.com/in/pieter-meeuwissen?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      image: "./img/pietermeeuwissen_bas.jpg",
+      role: "Strategist"
+    },
+    {
+      name: "Lotte Steens",
+      linkedin: "https://www.linkedin.com/in/lottesteens/",
+      image: "./img/lottesteens_bas.jpg",
+      role: "Strategist and Copywriter"
+    },
+    {
+      name: "Emiel De Bleser",
+      linkedin: "https://www.linkedin.com/in/emiel-de-bleser/",
+      image: "./img/emieldebleser_bas.jpg",
+      role: "Strategist"
     }
   ];
   

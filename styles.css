@@ -57,9 +57,10 @@ h1 {
 .team {
     font-family: 'KritikBlack', Arial, sans-serif;
     color: #e5f78d;
-    margin-top: -60px;
+    /* margin-top: 40px; */
     margin-bottom: 20px;
     padding: 0;
+    margin-top: 0;
     letter-spacing: -0.025em; /* Kerning van -25 */
     line-height: 0.9; /* Leading van 90% */
 }
@@ -132,14 +133,21 @@ nav  {
 .who{
    /* padding: 40px 180px; */
    width: 750px;
-   position: relative;
-   top:20px;
+   /* position: relative;
+   top:20px; */
 }
 
-.logo img{
+.logo div img{
    width: 450px;
    position: relative;
    bottom:20px;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 180px -20px 180px;
 }
 
 .grouppicture img{
@@ -210,10 +218,82 @@ nav  {
     font-family: 'KritikBlack', Arial, sans-serif;
     line-height: 0.9;
 }
+
+h2{
+    color: #f05027;
+    font-size: 1.5rem;
+    font-family: 'KritikBlack', Arial, sans-serif;
+    line-height: 0.9;
+}
 .spotify{
    width: 300px;
    height: 400px;
 }
+
+.BasWeb{
+    /* margin-top: -20px; */
+    align-items: center;
+    /* margin: 20px auto; */
+}
+.BasWeb a{
+    text-decoration: none;
+    font-size: 12px;
+    padding: 10px;
+    background-color: #b2c3ff;
+    border-radius: 7px;
+    font-family: kritikblack;
+    color: #e729bd;
+    
+}
+.BasWeb a:hover{
+    background-color: #e729bd;
+    color: #b2c3ff;
+}
+
+footer {
+    background-color: #e9eef1;
+    color: #f05027;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 0 15px;
+    display: inline-flex; /* Flexbox voor horizontale en verticale uitlijning */
+    justify-content: center; /* Horizontaal centreren */
+    align-items: center; /* Verticaal centreren */
+    width: 48px; /* Breedte van het vierkant */
+    height: 48px; /* Hoogte van het vierkant */
+    background-color: #f05027; /* Achtergrond voor de vierkantjes */
+    border-radius: 7px; /* Kleine afgeronde hoeken */
+    transition: all 0.3s ease;
+}
+
+footer a:hover {
+    background-color: #e729bd; /* Hover-effect */
+}
+
+footer a i {
+    font-size: 24px; /* Grootte van het icoon binnen het vierkant */
+    color: #e9eef1; /* Kleur van het icoon */
+}
+
+
+.social-icons {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+footer p {
+    font-family: 'HelveticaNowDisplayLight', Arial, sans-serif;
+    color: #232323;
+    letter-spacing: -0.010em; /* Kerning van -10 */
+    line-height: 1.2; /* Leading van 120% */
+    margin-top: 40px;
+    font-size: 10px;
+}
+
 
 @media screen and (min-width: 768px) {
     .spotify {
@@ -247,7 +327,9 @@ nav  {
         display: block; /* Zorg ervoor dat het element als blok wordt weergegeven */
         margin: 20px auto; /* Centreer het horizontaal */
     }
-    
+    .BasWeb{
+        margin: 40px auto;
+    }
 }
 
 @media (min-width: 1000px) {

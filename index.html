@@ -4,52 +4,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming soon</title>
+    <title>Team Members</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            background-image: url('img/patroon-03.png');
-            background-size: cover;
-            /* Zorgt ervoor dat de afbeelding het hele scherm vult */
-            background-repeat: no-repeat;
-            /* Voorkomt dat de afbeelding herhaalt */
-            background-position: center;
-            /* Centreert de afbeelding */
-            background-attachment: fixed;
-            /* Zorgt ervoor dat de achtergrond blijft staan bij scrollen */
-            height: 100vh;
-            /* Zorgt ervoor dat de body altijd minimaal de volledige hoogte van het scherm heeft */
-            margin: 0;
-            /* Verwijdert standaardmarges */
-        }
-        .soonContainer {
-            position: fixed;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            width: 100vw;
-            
-        }
-        .soon {
-            text-align: center;
-            background: #e9eef1;
-            padding: 60px;
-            border-radius: 7px;
-        }
-    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 
-<body>
-    <div class="soonContainer">
-        <div class="soon">
-            <h1>Coming soon!</h1>
-            <p>Stay tuned, something exciting is on its way.</p>
+<body class="custom-cursor">
+    <nav>
+            <div class="logo">
+                <div class="logoDiv">
+                    <img src="img/BAS_FullLogoTM_RGB_White.png" alt="">
+                </div>
+            </div>
+        <div class="whoGroup">
+            <div class="who">
+                <h1 class="team">Meet Our Team</h1>
+                <p> Who are the BASties for 2024-2025? We are a diverse group of 24 enthusiastic and motivated students
+                    eager to explore the world of advertising in roles such as account manager, strategic manager, and
+                    creative manager. Explore this page to learn more about us!</p>
+                <div class="BasWeb">
+                    <a href="https://www.belgianadschool.be/">GO TO OUR BAS WEBSITE</a>
+                </div>
+            </div>
+            <div class="grouppicture"> <img src="img/grouppicture.jpg" alt="grouppicture"></div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div id="user-list" class="user-list">
+            <!-- User cards will be injected here by JavaScript -->
         </div>
     </div>
+
+    <div class="beats">
+        <div class="beatstxt">
+            <h1>You just can't get enough?</h1>
+            <p>Check our playlist. Carefully curated by the 12th batch of BAS.</p>
+        </div>
+        <div class="responsive-iframe-container">
+            <iframe class="spotify"
+                src="https://open.spotify.com/embed/playlist/7qXe8w9Xvwz9TIiVCTBZD2?utm_source=generator&theme=0"
+                frameBorder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <footer>
+        <h2>Follow us on our socials</h2>
+        <div class="social-icons">
+            <!-- Vierkante Instagram-icoon -->
+            <a href="https://www.instagram.com/belgian_adschool?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+            <!-- TikTok-icoon met vierkant -->
+            <a class="square-background" href="https://www.tiktok.com/@belgianadvertisingschool?is_from_webapp=1&sender_device=pc" target="_blank"><i class="fab fa-tiktok"></i></a>
+            <!-- Facebook-icoon met vierkant -->
+            <a class="square-background" href="https://www.facebook.com/belgianadschool" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        </div>
+        <p> © 2024 Belgian Advertising School. All rights reserved.</p>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>

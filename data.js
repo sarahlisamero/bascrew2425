@@ -126,6 +126,18 @@ const users = [
       linkedin: "https://www.linkedin.com/in/emiel-de-bleser/",
       image: "./img/emieldebleser_bas.jpg",
       role: "Strategist"
+    },
+    {
+      name: "Sofie Driesen",
+      linkedin: "https://www.linkedin.com/in/sofie-driesen-394934228/",
+      image:"./img/sofiedriesen_bas.jpg",
+      role: "Account manager"
+    },
+    {
+      name: "Kenneth Dootselaere",
+      linkedin: "https://www.linkedin.com/in/kenneth-dootselaere/",
+      image: "./img/kennethdootselaere_bas.jpg",
+      role: "Account manager"
     }
   ];
   

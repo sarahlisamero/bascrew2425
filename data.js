@@ -12,28 +12,28 @@ const users = [
       name: "Giulia Calvo",
       linkedin: "https://www.linkedin.com/in/giulia-calvo/",
       image: "./img/giuliacalvo_bas.jpg",
-      role: "Account Manager"
+      role: "Account"
       //Akqa
     },
     {
       name: "Britt Adam",
       linkedin: "https://www.linkedin.com/in/britt-adam-b7b682186/",
       image: "./img/brittadam_bas.jpg",
-      role: "Digital Experience Designer"
+      role: "Brand Designer"
       //TBC
     },
     {
       name: "Quintt Adam",
       linkedin: "https://www.linkedin.com/in/quintt-adam-138882224/",
       image: "./img/quinttadam_bas.jpg",
-      role: "Strategic Designer"
+      role: "Brand Designer"
       //Us
     },
     {
       name: "Aeneas Desmet",
       linkedin: "https://www.linkedin.com/in/aeneas-desmet-a409111b8/",
       image: "./img/aeneasdesmet_bas.jpg",
-      role: "Graphic Designer & Digital Creative"
+      role: "Digital Creative"
       //Ogilvy Social.Lab
     },
     {
@@ -75,7 +75,7 @@ const users = [
       name: "Elene Hoeben",
       linkedin: "www.linkedin.com/in/elene-hoeben-b43b94267",
       image: "./img/elenehoeben_bas.jpg",
-      role: "Creative Director"
+      role: "Creative/ PR"
       //TBC
     },
     {
@@ -96,7 +96,7 @@ const users = [
       name: "Naomi Stynen",
       linkedin: "www.linkedin.com/in/naomistynen",
       image: "./img/naomistynen_bas.jpg",
-      role: "Account"
+      role: "Copywriter"
       //VML
     }, 
     {
@@ -110,21 +110,21 @@ const users = [
       name: "Louise Ide",
       linkedin: "linkedin.com/in/louise-ide",
       image: "./img/louiseide_bas.jpg",
-      role: "Account/ Project Manager"
+      role: "Account/ PR"
       //TBC
     },
     {
       name: "Marie De Meester",
       linkedin: "http://linkedin.com/in/marie-de-meester-84726423b",
       image: "./img/mariedemeester_bas.jpg",
-      role: "Strategist and Creative"
+      role: "Creative Strategist"
       //Berlin Creative Studio
     },
     {
       name: "Bjoke Claesen",
       linkedin: "https://www.linkedin.com/in/bjoke-claesen-70498b327?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       image: "./img/bjokeclaesen_bas.jpg",
-      role: "Social Media and Content Creator"
+      role: "Creative/ PR"
       //TBC
     },
     {
@@ -138,7 +138,7 @@ const users = [
       name: "Lotte Steens",
       linkedin: "https://www.linkedin.com/in/lottesteens/",
       image: "./img/lottesteens_bas.jpg",
-      role: "Strategist and Copywriter"
+      role: "Copywriter"
       //Happiness
     },
     {
@@ -152,21 +152,21 @@ const users = [
       name: "Sofie Driesen",
       linkedin: "https://www.linkedin.com/in/sofie-driesen-394934228/",
       image:"./img/sofiedriesen_bas.jpg",
-      role: "Account manager"
+      role: "Account"
       //TBC
     },
     {
       name: "Kenneth Dootselaere",
       linkedin: "https://www.linkedin.com/in/kenneth-dootselaere/",
       image: "./img/kennethdootselaere_bas.jpg",
-      role: "Account manager"
+      role: "Account"
       //Ogilvy Social.Lab
     },
     {
       name: "Anke Sneijders",
       linkedin: "https://www.linkedin.com/in/anke-sneijders-6881b6258/",
       image: "./img/ankesneijders_bas.jpg",
-      role: "Creative"
+      role: "Art Director"
       //TBC
     }
   ];

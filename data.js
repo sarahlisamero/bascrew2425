@@ -5,7 +5,7 @@ const users = [
       name: "Sarah-Lisa Mero",
       linkedin: "https://www.linkedin.com/in/sarah-lisa-m-130556190/",
       image: "./img/sarahlisamero_bas.jpg",
-      role: "Strategic Creative"
+      role: "Digital Hybrid"
     },
     {
       name: "Giulia Calvo",
@@ -53,7 +53,7 @@ const users = [
       name: "Mit Pynenborg",
       linkedin: "https://www.linkedin.com/in/mit-pynenborg?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       image: "./img/mitpynenborg_bas.jpg",
-      role: "Strategist/ Account"
+      role: "Strategist"
     },
     {
       name: 'Josefine Tanghe',
@@ -138,6 +138,12 @@ const users = [
       linkedin: "https://www.linkedin.com/in/kenneth-dootselaere/",
       image: "./img/kennethdootselaere_bas.jpg",
       role: "Account manager"
+    },
+    {
+      name: "Anke Sneijders",
+      linkedin: "https://www.linkedin.com/in/anke-sneijders-6881b6258/",
+      image: "./img/ankesneijders_bas.jpg",
+      role: "Creative"
     }
   ];
   

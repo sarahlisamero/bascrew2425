@@ -13,7 +13,8 @@ document.addEventListener("DOMContentLoaded", () => {
         userCard.innerHTML = `
         <img src="${user.image}" alt="${user.name}">
         <h2>${user.name}</h2>
-        <p>${user.role}</p>
+        <p><strong>${user.role}</strong></p>
+        <p> @ ${user.internshipCompany}</p>
         <a href="${user.linkedin}" target="_blank"><i class="fa-brands fa-linkedin" style="color: #0A66C2;"></i></a>
     `;    
 
